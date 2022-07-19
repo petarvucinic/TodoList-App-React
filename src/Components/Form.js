@@ -29,7 +29,7 @@ const Form = ({ setInputText, todos, setTodos, inputText, setStatus}) => {
         id=""
       />
       <button onClick={submitTodoHandler} className="todo-button" type="submit">
-        <i className="fa-solid fa-arrow-down-long"></i>
+        <i className="fa-solid fa-plus"></i>
       </button>
       <div className="select">
         <select onClick={statusHandler} name="todos" className="filter-todo" id="">
@@ -41,5 +41,6 @@ const Form = ({ setInputText, todos, setTodos, inputText, setStatus}) => {
     </form>
   );
 };
+
 
 export default Form;
